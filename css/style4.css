@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+h1	{
+	display: inline;
+}
+
+header{
+	width: 100%;
+	padding: 20px;
+	background-color: #333;
+	color: #ffffff;
+}
+
+footer {
+	width: 100%;
+    background-color: #333;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.social ul li{
+	font-size: 2em;
+	list-style-type: none;
+	display: inline;
+	text-decoration: none;
+}
+
+.social a{
+	color: white;
+}
+
+a:hover {
+	color: #ffeb8f;
+}
+
+h1{
+	font-family: 'Playfair Display SC', serif;
+}
+
+.copy {
+	text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.botones {
+	display: inline-block;
+	margin: 3em;
+	padding: 4em;
+	text-align: center;
+}
+
+input[type="button"] {
+	text-transform: uppercase;
+	border-radius: 0.5em;
+	border-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	font-size: 2em;
+	margin: 1em;
+}
+
+.blog {
+	background-color: #5BD58A;
+}
+
+.chess {
+	background-color: #AF7AC6;
+}
+
+.boton {
+	background-color: #DE765D;
+}
+
+.blog:hover {
+	color: #5BD58A;
+	border: 2px solid #5BD58A;
+	background-color: #ffffff;
+}
+
+.chess:hover {
+	color: #AF7AC6;
+	border: 2px solid #AF7AC6;
+	background-color: #ffffff;
+}
+
+.boton:hover {
+	color: #DE765D;
+	border: 2px solid #DE765D;
+	background-color: #ffffff;
+}
