@@ -1,0 +1,94 @@
+#pequeno {
+	font-size: 0.5em;
+}
+
+#grande {
+	font-size: 2em;
+}
+
+input[type="button"] {
+	margin: 8px;
+	text-transform: uppercase;
+	border-radius: 0.5em;
+	border-style: none;
+	padding: 10px 20px;
+	color: gray;
+}
+
+input[value="Esmeralda"] {
+	color: #ffffff;
+	background-color: #5BD58A;
+}
+
+input[value="Cielo"] {
+	color: #ffffff;
+	background-color: #60ABDB;
+}
+input[value="Amatista"] {
+	color: #ffffff;
+	background-color: #AF7AC6;	
+}
+input[value="Asfalto"] {
+	color: #ffffff;
+	background-color: #627186;
+}
+input[value="Topazio"] {
+	color: #ffffff;
+	background-color: #E7934B;
+}
+input[value="Rubi"] {
+	color: #ffffff;
+	background-color: #DE765D;
+}
+/*-------------------*/
+input[value="Esmeralda"].bordeado {
+	color: #5BD58A;
+	border: 2px solid #5BD58A;
+	background-color: white;
+
+}
+
+input[value="Cielo"].bordeado {
+	background-color: white;
+	color: #60ABDB;
+	border: 2px solid #60ABDB;
+}
+input[value="Amatista"].bordeado {
+	background-color: white;
+	color: #AF7AC6;
+	border: 2px solid #AF7AC6;	
+}
+input[value="Asfalto"].bordeado {
+	background-color: white;
+	color: #627186;
+	border: 2px solid #627186;
+}
+input[value="Topazio"].bordeado {
+	background-color: white;
+	color: #E7934B;
+	border: 2px solid #E7934B;
+}
+input[value="Rubi"].bordeado {
+	background-color: white;
+	color: #DE765D;
+	border: 2px solid #DE765D;
+}
+/*-----------------*/
+input[value="Largo asfalto"]{
+	color: white;
+	background-color: gray;
+}
+input[value="borde cielo"]{
+	background-color: white;
+	color: #60ABDB;
+	border: 2px solid #60ABDB;
+}
+input[value="pequena esmeralda"]{
+	color: #ffffff;
+	background-color: #5BD58A;
+}
+input[value="gran borde rubi"]{
+	background-color: white;
+	color: #DE765D;
+	border: 2px solid #DE765D;
+}

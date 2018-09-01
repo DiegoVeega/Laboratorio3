@@ -1,0 +1,32 @@
+
+.impar td:nth-child(even) {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.par td:nth-child(odd){
+    background-color: #000000;
+    color: #ffffff;
+}
+
+td{
+	width: 4em;
+	height: 4em;
+}
+
+tr div{
+	margin: 2px;
+    visibility: hidden;
+    background-color: rgba(243,118,118,0.50);
+    width: 3.8em;
+    height: 3.8em;
+    text-align: center;
+}
+
+td:hover div{
+    visibility: visible;
+}
+
+h1{
+	font-family: 'Playfair Display SC', serif;
+}
