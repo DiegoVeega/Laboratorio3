@@ -76,7 +76,7 @@ input[value="Rubi"].bordeado {
 /*-----------------*/
 input[value="Largo asfalto"]{
 	color: white;
-	background-color: gray;
+	background-color: #627186;
 }
 input[value="borde cielo"]{
 	background-color: white;

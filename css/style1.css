@@ -98,3 +98,12 @@ input[type="submit"] {
 label > span {
     color: #d35400;
 }
+
+.section-footer {
+	display: inline-block;
+	align-content: right;
+}
+
+footer{
+	align-items: center;
+}
